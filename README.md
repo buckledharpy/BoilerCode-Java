@@ -3,7 +3,7 @@ The goal of this repo is just to have a collection of things I can look back on 
 The real goal isn't to pad a ton of small projects onto a repository, it's just to offer a collection of exercises that might get your brain thinking in Java.
 I know mine sure didn't to begin with, so hopefully if you are reading this, it can help you! And in the likely chance that it cannot, then I challenge you to aid me in creating
 an even better repository! Help is always welcome (and isn't that one of the key points of Java's OOP?) so reach out, criticize, advise, do anything! This is just a silly little assortment
-of small menial tasks that could help you gain your footing in the world of Java. Start small, and one day you'll get to the exciting large projects (atleast that's what I tell myself).
+of small menial tasks that could help you gain your footing in the world of Java. Start small, and one day you'll get to the exciting large projects (atleast that's what I tell myself). Projects are not all done, but will be continuously updated. Tutorials to come soon.
 
 # Java Projects - The Concept
 Practice and small projects in Java! <br />
