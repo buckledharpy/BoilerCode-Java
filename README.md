@@ -1,5 +1,7 @@
 # The Goal
-This repo is primarily an offered collection of projects, exercises, and resources to use when learning Java alongside CS 180. The goal isn't to pad a ton of small projects onto a repository, rather it is to offer a collection of exercises that might aid your Java knowledge outside of the course and content. Help is always welcome, so reach out, criticize, advise, do anything! This is just an assortment of small, rather basic projects that can help you gain your footing in the world of Java. Projects are not all done, but will be continuously updated. Tutorials and more external resources to come soon.
+This repo is primarily an offered collection of projects, exercises, and resources to use when learning Java alongside CS 180. The goal isn't to pad a ton of small projects onto a repository, rather it is to offer a collection of exercises that might aid your Java knowledge outside of the course and content. Help is always welcome, so reach out, criticize, advise, do anything! This is just an assortment of small, rather basic projects that can help you gain your footing in the world of Java. Projects are not all done, but will be continuously updated. Tutorials and more external resources to come soon. 
+
+# Check out the structure for a guideline of the repository!
 
 # Java Projects - The Concept
 Practice exercises and small projects in Java! <br />
