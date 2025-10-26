@@ -1,1 +1,6 @@
+public static void main(String [] args) {
+  Scanner scanner = new Scanner();
+  int age = scanner.nextInt();
 
+  System.out.printf("The age you entered was %f!", age);
+}
