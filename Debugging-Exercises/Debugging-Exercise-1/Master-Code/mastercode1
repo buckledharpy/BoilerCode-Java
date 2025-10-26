@@ -1,1 +1,7 @@
+public static void main(String [] args) {
+  Scanner scanner = new Scanner(System.in);        // Include System.in when declaring the parameter of the scanner!
+  int age = scanner.nextInt();
+  scanner.nextLine();                                 //  optional, but often good practice to clear newline buffer after scanning an int.
 
+  System.out.printf("The age you entered was %d!", age);  // ints are decimal point values, not floating point! ( that would be doubles)
+}
