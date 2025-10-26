@@ -1,3 +1,6 @@
+// There are 2 issues with this code, can you identify and fix them?
+// Bonus points if you include an optional 3rd fix!
+
 public static void main(String [] args) {
   Scanner scanner = new Scanner();
   int age = scanner.nextInt();
