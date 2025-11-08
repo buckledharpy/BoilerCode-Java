@@ -1,40 +1,83 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CS Supplement</title>
+    <title>The CS Supplement</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>CS Supplement</h1>
-        <nav>
+        <h1>The CS Supplement</h1>
+
+        <button id="menu-toggle" class="menu-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav id="main-nav" role="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="problems/problems.html">Problems</a></li>
-                <li><a href="solutions/solutions.html">Solutions</a></li>
+                <li><a href="courses/courses.html">Courses</a></li>
                 <li><a href="about.html">About</a></li>
-
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro">
+        <section class="hero">
             <h2>Welcome to the CS Supplement!</h2>
-            <p>Aimed at helping Purdue CS students with Object Oriented Programming.</p>
+            <p class="lead">Extra resources, exercises, and solutions to help you master and excel in Purdue CS.</p>
+            <div class="hero-ctas">
+                <a class="course-button" href="courses/courses.html">Browse Courses</a>
+            </div>
         </section>
 
-        <section class="exercises-preview">
-            <h2>Exercises</h2>
-            <div class="cards">
-                <a class="card" href="exercises/ex1.html">Exam 1 Preparation</a>
+        <section class="recent-courses">
+            <h2>Recently Added Courses</h2>
+            <ul class="course-list">
+                <li><a class="course-button" href="courses/CS180/CS180.html">CS 18000 — Object Oriented Programming</a></li>
+                <li><a class="course-button" href="courses/CS176/CS176.html">CS 17600 — Data Engineering in Python</a></li>
+            </ul>
+        </section>
+
+        <section class="features">
+            <h2>Highlights</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <h3>Study Guides</h3>
+                    <p>Concise summaries and example problems to help you review key concepts quickly.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Video Walkthroughs</h3>
+                    <p>Short videos that walk through solutions and coding patterns used in assignments.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Practice Quizzes</h3>
+                    <p>Short, auto-graded quizzes to test your understanding in an exam-like environment.</p>
+                </article>
             </div>
+        </section>
+
+        <section class="about-preview">
+            <h2>About</h2>
+            <p>Learn more about the CS Supplement project and how it helps students prepare for exams and assignments.</p>
+            <a class="course-button" href="about.html">Learn more</a>
+        </section>
+
+        <section class="bug-report">
+            <h2>Feedback &amp; Bug Reports</h2>
+            <p>If you find an issue or have feedback, please email at
+                <a href="mailto:schurzkruz882@gmail.com">schurzkruz882@gmail.com</a>.
+                When reporting bugs, include the page URL and steps to reproduce the issue.
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Kruz Michael Schurz </p>
+        <p>&copy; 2025 Kruz Schurz Production</p>
     </footer>
 
     <script src="script.js"></script>
